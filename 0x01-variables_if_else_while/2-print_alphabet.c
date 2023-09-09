@@ -4,12 +4,12 @@
  * Return: Zero to signify code success
  */
 
-int main()
+int main(void)
 {
 	char b;
 
 	b = 'a';
-	while 
+	while
 		(b <= 'z') {
 			putchar(b);
 			b++;
