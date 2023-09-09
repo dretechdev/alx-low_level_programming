@@ -4,7 +4,7 @@
 /**
  * main - This is our entry point
  * Return: 0 (Code Success)
- * */
+ */
 int main(void)
 {
 	int n;
