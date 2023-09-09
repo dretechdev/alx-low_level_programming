@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
  * main - This is our entry point
- * Return Zero to signify a completed procee
+ * Return: 0 (signify a completed process)
  */
+
 int main(void)
 {
 	char x;
@@ -17,7 +18,7 @@ int main(void)
 			x++;
 		}
 	while 
-		(y <= 'A') {
+		(y <= 'Z') {
 			putchar(y);
 			y++;
 		}
