@@ -3,8 +3,8 @@
 #include <stdio.h>
 /**
  * main - This is our entry point
- * Return: 0 (Code Success) 
-*/
+ * Return: 0 (Code Success)
+ * */
 int main(void)
 {
 	int n;
