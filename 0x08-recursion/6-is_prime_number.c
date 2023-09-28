@@ -1,35 +1,28 @@
 #include "main.h"
 
-int actual_sqrt_recursion(int n, int i);
 /**
- * _sqrt_recursion -This returns the natural square root of
- * a number
- * @n: The number to calculate the square root of
+ * prime_a - This calculates if it is prime
+ * @a: input
+ * @b: divisor
  *
- * Return: the resulting square root
+ * Return: 0
  */
 
-int _sqrt_recursion(int n)
+int prime_a(int a, int b)
 {
-	if (n < 0)
-		return (-1);
-	return (actual_sqrt_recursion(n, 0));
+	if (a <= 1 || (a != b && a % b == 0))
+		return (0);
+	else if (a == b)
+		return (1);
+	return (prime_a(a, b + 1));
 }
 
 /**
- * actual_sqrt_recursion - recurses to find the natural
- * square root of a number
- * @n: number to calculate the square root of
- * @i: iterator
- *
- * Return: the resulting square root
+ * is_prime_number - detects if it is a prime number
+ * @n: the input number
+ * Return: 0 or 1
  */
-
-int actual_sqrt_recursion(int n, int i)
+int is_prime_number(int n)
 {
-	if (i * i > n)
-		return (-1);
-	if (i * i == n)
-		return (i);
-	return (actual_sqrt_recursion(n, i + 1));
+	return (prime_a(n, 2));
 }
