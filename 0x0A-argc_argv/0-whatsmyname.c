@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	 * we assign void into it so as to allow us compile with
 	 * the unused variable
 	 *
-	 * Another way of doing this is by including __attribute__ in the code 
+	 * Another way of doing this is by including __attribute__ in the code
 	 * above, just after the data type.
 	 * int main(int __attribute__(unused)  argc, char *argv[])
 	 */
