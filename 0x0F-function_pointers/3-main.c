@@ -1,3 +1,4 @@
+#include "function_pointers.h"
 #include "3-calc.h"
 #include <stdlib.h>
 #include <stdio.h>
@@ -9,7 +10,7 @@
  * Return: 0
  */
 
-int main(int argc, char *argv[])
+int main(int __atttribute__((unused)) argc, char *argv[])
 {
 	int (*oprt)(int, int);
 	if (argc != 4)
