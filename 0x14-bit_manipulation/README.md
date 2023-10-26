@@ -14,4 +14,4 @@ Trust me, coding in C is fun when you fully know your way around each line of co
 
 6. A function that checks the endianness.
 
-7. CRACK ME!!! - Find the password for this program.
+7. CRACK ME!!! - Find the exact password for this program.
