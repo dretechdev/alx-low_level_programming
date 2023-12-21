@@ -1,4 +1,4 @@
-#include "harsh_tables.h"
+#include "hash_tables.h"
 
 /**
  * key_index - This get the index at which a key/value
