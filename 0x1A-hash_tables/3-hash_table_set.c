@@ -1,4 +1,5 @@
 #include "hash_tables.h"
+
 /**
  * hash_table_set - Add or update an element in a hash table
  * @ht: A pointer to the hash table
@@ -25,7 +26,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	{
 		if (strcmp(ht->array[i]->key, key) == 0)
 		{
-			free(ht-> array[i]->value);
+			free(ht->array[i]->value);
 			ht->array[i]->value = value_copy;
 			return (1);
 		}
